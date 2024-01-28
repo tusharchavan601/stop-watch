@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    margin-bottom: 5vh;
+    margin-left: 1400%;
+    
+}
+
+.time{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+h1 , p{
+    color: white;
+
+}
+
+button{
+    margin: 0rem 0.0rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgba(7, 7, 7, 0.4);
+    color: white;
+}
+
+body{
+    width: 100px;
+    height: 100vh;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-image: url("img2.jpg");
+}
